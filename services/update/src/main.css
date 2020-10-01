@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Samsung Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sans Regular'), url('src/SamsungSans-Regular.woff') format('woff');
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+      background-color: #f2f2f2;
+      color: #2a2a2a;
+    }
+    .rom-name{
+        color: #272727;
+    }
+    .img-back{
+        content: url(../update/src/back.svg);
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+    .rom-name{
+        color: #e6e6e6;
+    }
+    .img-back{
+        content: url(../update/src/back-2.svg);
+    }
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    user-select: none;
+}
+.current-rom{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: 'Samsung Sans Regular';
+}
+.navbar{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.img-back{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.titulo-navbar{
+    font-family: 'Samsung Sans Regular';
+    margin-right: 20px;
+}
+.rom-name{
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: 'Samsung Sans Regular';
+    text-decoration: none;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+}
+.recargar {
+    text-align: center;
+    font-family: 'Samsung Sans Regular';
+    font-size: 20px;
+    vertical-align: middle;
+    background-color: #3f91ff;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    border-radius: 15px;
+    color: #fff;
+}

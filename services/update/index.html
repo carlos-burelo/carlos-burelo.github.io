@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/main.css">
+    <link href="src/donwload.png" rel="shortcut icon">
+    <meta content="Softwre update" property="og:type">
+    <meta content="Software update service" property="og:title">
+    <meta content="src/main-fav.png" property="og:image">
+    <link href="manifest.json" rel="manifest">
+    <title>Selector</title>
+</head>
+<body>
+<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
+    <div class="navbar">
+        <h2 class="titulo-navbar"><img onclick="window.close();" class="img-back">Rom menu</h2>
+    </div>
+    <h2 class="current-rom">Select your current rom</h2>
+        <!--ROM 1-->
+            <h2 class="rom-name">Quantum A51</h2>
+                <div class="subcontenedor">
+                    <a href="roms/QNTMA51/index.html">
+                <img src="roms/QNTMA51/src/quantum-a51.png" class="banner">
+            </a>
+        </div>
+        <br>
+        <!--ROM 2-->
+            <h2 class="rom-name">ZROM</h2>
+                <div class="subcontenedor">
+                    <a href="roms/ZROMA30/index.html">
+                <img src="roms/ZROMA30/src/zrom.png" class="banner">
+            </a>
+        </div>
+        <br>
+        <h1 class="recargar">reload</h1>
+        <script src="service-worker.js"></script>
+</body>
+</html>

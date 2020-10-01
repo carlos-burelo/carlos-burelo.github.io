@@ -1,0 +1,20 @@
+{
+    "name": "Sofware update",
+    "short_name": "Software update",
+    "icons": [
+        {
+            "src": "../../src/main-fav.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "../../src/min-fav.png",
+            "sizes": "240x240",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "https://carlos-burelo.github.io/Website/services/update/roms/quantum_S20FE/index.html",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone"
+}

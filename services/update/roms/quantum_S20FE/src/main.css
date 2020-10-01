@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'Samsung Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sans Regular'), url('SamsungSans-Regular.woff') format('woff');
+}
+@media (prefers-color-scheme: light) {
+    img{
+        user-select: none;
+    }
+    body {
+      background-color: #f2f2f2;
+      color: #272727;
+    }
+    .rom-name{
+        color: #272727;
+    }
+    .img-back{
+        content: url(back.svg);
+    }
+    .navbar{
+        background-color: #f2f2f2;
+    }
+    .contenedor-banner{
+        background: #FFFFFF;
+		border: 1px solid #e2e2e2;
+    }
+    .contenedor{
+        background-color: #ffffff;
+        border: solid 1px #d8d8d8;
+    }
+    .contenedor-2{
+        background-color: #ffffff;
+        border: solid 1px #d8d8d8;
+    }
+    .reportar{
+        background-color: #e4e4e4;
+        color: #000000;
+    }
+    .release-line {
+        background-color: #e2e2e2;
+    }
+    .release-date{
+        color: #a0a0a0;
+    }
+    .release-build{
+        color: #202020;
+    }
+    .release-top:hover{
+        background-color: #fafafa;
+        border-radius: 24px 24px 0px 0px;
+    }
+    .release-bottom:hover{
+        background-color: #fafafa;
+        border-radius: 0px 0px 24px 24px;
+    }
+    .release-center:hover{
+        background-color: #fafafa;
+    }
+}
+@media (prefers-color-scheme: dark) {
+	img{
+        user-select: none;
+    }
+    body {
+        background-color: #000;
+        color: #a0a0a0;
+    }
+    .rom-name{
+        color: #e6e6e6;
+    }
+    .img-back{
+        content: url(back-2.svg);
+    }
+    .navbar{
+        background-color: #000000;
+    }
+    .contenedor{
+        background-color: #1a1a1a;
+    }
+    .whats-new{
+        color: #fff;
+    }
+    .whats-new-sub{
+        color: #a0a0a0;
+    }
+    
+    .contenedor-banner{
+        background: #252525;
+    }
+    .contenedor-2{
+        background-color: #242424;
+    }
+    .reportar{
+        background-color: #2a2a2a;
+        color: #ffffff;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.current-rom{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: 'Samsung Sans Regular';
+}
+.navbar{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+}
+.contenedor-sub{
+    margin-left: 20px;
+    padding-top: 70px;
+    width: 90%;
+}
+.subtitulo{
+    font-size: 20px;
+    font-family: 'Samsung Sans Regular';
+}
+.subcontenedor{
+    padding-top: 30px;
+}
+.contenedor-banner{
+    position: relative;
+    border-radius: 22px;
+    margin: 30px 0px 0px 0px;
+    padding: 35px 15px;
+}
+.whats-new{
+    font-family: 'Samsung Sans Regular';
+}
+.whats-new-sub{
+    font-family: 'Samsung Sans Regular';
+    width: 78%;
+}
+.contenedor-imagen{
+    float: right;
+    margin-top: -70px;
+}
+.rom-logo{
+    width: 80px;
+    height: 80px;
+}
+.img-back{
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+}
+.titulo-navbar{
+    font-family: 'Samsung Sans Regular';
+    margin-right: 20px;
+    font-size: 18px;
+}
+.contenedor{
+    margin-top: -40px;
+    border-radius: 24px;
+}
+.contenedor-2{
+    margin-top: 8px;
+    border-radius: 24px;
+}
+.features{
+    padding-top: 50px;
+    padding-left: 20px;
+    font-family: 'Samsung Sans Regular';
+    padding-bottom: 20px;
+    font-size: 14.5px;
+}
+.features-2{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Samsung Sans Regular';
+    padding-bottom: 10px;
+}
+.banner-img{
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+}
+.btn1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;
+}
+.btn2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;
+}
+.descargar {
+    background-color: #3F91FF;
+    color: #ffffff;
+    vertical-align: middle;
+    text-align: center;
+    display: inline;
+    padding: 10px 40px;
+    border-radius: 12px;
+    font-weight: 400;
+    font-family: 'Samsung Sans Regular';    
+}
+.reportar {
+    vertical-align: middle;
+    text-align: center;
+    display: inline;
+    padding: 10px 40px;
+    border-radius: 12px;
+    font-weight: 400;
+    font-family: 'Samsung Sans Regular';
+}
+.descargar:hover {
+    background-color:#0d4b9c;
+}
+.reportar:hover {
+    background-color: #0d4b9c;
+	color: #fff;
+}
+
+/*--- --- --- releases --- --- ---*/
+.release-titulo{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.features-release {
+    font-family: 'Samsung Sans Regular';
+    font-size: 14.5px;
+}
+.release-top{
+    color: #000;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.release-center{
+    color: #000;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.release-bottom{
+    color: #000;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.release-date {
+    margin-right: 40px;
+    float: right;
+}
+.release-line{
+    margin-top: 10px;
+    width: 95%;
+    height: 1px;
+}
+.release-separador{
+    height: 10px;
+}
