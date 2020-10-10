@@ -60,11 +60,12 @@ body{
 }
 /*---- ---- ---- contenedor principal ---- ---- ----*/
 .contenedor {
-	width: 60%;
+	width: 99%;
 	margin: auto;
 }
 
 header .contenedor {
+    padding: 5px 0px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -133,7 +134,7 @@ header .contenedor {
     pointer-events:none;
     transition: ease all .3s;
 }
-#mipopup:target{
+#menu:target{
     opacity:1;
     z-index: 200;
     pointer-events:auto;
@@ -327,8 +328,10 @@ h3 .activo {
 .carousel__item__details:hover {
 	opacity: 1;
 }
-.carousel__item__details--title {
-   font-size: 15px;
+.carousel__item__details--title i {
+    font-size: 100px;
+    color: var(--blanco);
+    margin-bottom: 60%;
 }
 .carousel::-webkit-scrollbar {    
 	height: 10px;
@@ -389,7 +392,14 @@ h3 .activo {
 .docs-list,
 .social-list{
 	text-decoration: none;
-	list-style: none;
+    list-style: none;
+}
+.docs-list{
+    margin: 5px 0px;
+}
+.docs:hover{
+    color: var(--verde);
+    cursor: pointer;
 }
 .social{
     font-size: 20px;
@@ -415,6 +425,9 @@ h3 .activo {
 	color: var(--azul);
 	transition: all .4s;
 	transform: scale(1.3);
+}
+.docs-list li, .social-list {
+    margin: 10px 0px;
 }
 .copy{
 	text-align: center;
@@ -446,8 +459,11 @@ h3 .activo {
         width: 100%;
         height: auto;
     }
+    .contenedor_compilacion{
+        padding: 15px;
+    }
+
     .contenedor_informacion,
-    .contenedor_compilacion,
     .contenedor__carrusel{
         margin-top: 20px;
         padding: 15px;
@@ -477,7 +493,7 @@ h3 .activo {
         align-items: center;
     }
     .docs-list li, .social-list {
-        margin: 0px 0px;
+        margin: 10px 0px;
     }
     .carousel__anterior,
     .carousel__siguiente{
