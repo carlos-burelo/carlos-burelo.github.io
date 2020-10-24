@@ -20,7 +20,7 @@
 	<link href="css/main.css" rel="stylesheet">
 	<title>Carlos Burelo</title><!--Favicon-->
 	<link href="fav/web-icon.png" rel="shortcut icon"><!--App Manifest-->
-	<!-- <link href="manifest.json" rel="manifest"> -->
+	<link href="manifest.json" rel="manifest">
 </head>
 <body>
 	<nav class="hidden-xs is-landing" id="nav-top">
@@ -55,23 +55,14 @@
 		<div class="hamburger-bar hamburger-bar-2"></div>
 		<div class="hamburger-bar hamburger-bar-3"></div></a>
 	</nav>
-
 	<nav class="visible-xs" id="nav-mobile-overlay">
-		<a class="nav-logo" href="/">
-		<img alt="Carlos Burelo" height="70" src="fav/web-icon.png"></a>
 		<ul class="nav-items">
-			<li>
-				<a href="/cases">Cases</a>
-			</li>
-			<li>
-				<a href="/#services" onclick="toggleMenu(event)">Services</a>
-			</li>
-			<li>
-				<a href="/careers"><span>Careers</span><span class="badge">5</span></a>
-			</li>
-			<li>
-				<a href="/#contact" onclick="toggleMenu(event)">Contact</a>
-			</li>
+			<a href="/"><li>Home</li></a>
+			<a href="login"><li>Log In</li></a>
+			<a href="guides"><li>Guides</li></a>
+			<a href="blog"><li>Blog</li></a>
+			<a href="works"><li>Work's</li></a>
+			<a href="contact"><li>Contact</li></a>
 		</ul>
 	</nav>
 	<nav class="social-nav hidden-xs hidden-sm" id="nav-right">
@@ -86,7 +77,7 @@
 			<li style="list-style: none"><span></span></li>
 		</ul>
 	</nav>
-<div id="cases">
+	<div id="cases">
   <div class="h1 background-text parallax parallax--landing">Error 404
 </div>
 
@@ -102,8 +93,7 @@
       </div>
     </div>
    </div>
-  </div>
-
-  <script src="js/main.js"></script>
-  </body>
+	</div>
+	<script src="js/main.js"></script>
+</body>
 </html>

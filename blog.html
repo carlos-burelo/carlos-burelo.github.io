@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang ="es">
+<html lang ="en">
 <head>
-	<!--Google Fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Overpass:600,900&display=swap" rel="stylesheet"><!--App Content-->
+	<!--Etiquetas CEO-->
+	<title>Blog</title><!--Favicon-->
 	<meta content="Wellcome" name="description">
 	<meta content="Carlos Burelo" name="author">
 	<meta content="Carlos Burelo" name="apple-mobile-web-app-title">
@@ -12,14 +12,18 @@
 	<meta content="Website" property="og:type">
 	<meta content="width" name="MobileOptimized">
 	<meta content="true" name="HandheldFriendly">
-	<meta content="Personal Development Blog for the Galaxy A30 and other devices" property="og:title">
+	<meta content="Personal website and portfolio" property="og:title">
 	<meta content="fav/web-icon.png" property="og:image">
 	<meta content="width=device-width, initial-scale=1, maximum-scale=5" name="viewport">
+	<!-- FontAwesome -->
 	<script src="https://kit.fontawesome.com/72a201a5f9.js" crossorigin="anonymous"></script>
+	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+	<!-- Bootstrap modificado -->
 	<link href="css/main.css" rel="stylesheet">
-	<title>Carlos Burelo</title><!--Favicon-->
-	<link href="fav/web-icon.png" rel="shortcut icon"><!--App Manifest-->
+	<!-- Favicon -->
+	<link href="fav/web-icon.png" rel="shortcut icon">
+	<!-- Manifest -->
 	<link href="manifest.json" rel="manifest">
 </head>
 <body>
@@ -55,28 +59,14 @@
 		<div class="hamburger-bar hamburger-bar-2"></div>
 		<div class="hamburger-bar hamburger-bar-3"></div></a>
 	</nav>
-
 	<nav class="visible-xs" id="nav-mobile-overlay">
-		<a class="nav-logo" href="/">
-		<img alt="Carlos Burelo" height="70" src="fav/web-icon.png"></a>
-		<li>
-			<a href="/">Home</a>
-		</li>
-		<li>
-			<a href="login">Log In</a>
-		</li>
-		<li>
-			<a href="guides">Guides</a>
-		</li>
-		<li>
-			<a href="blog">Blog</a>
-		</li>
-		<li>
-			<a href="works">Work's</a>
-		</li>
-		<li>
-			<a href="#disclaimer">Contact</a>
-		</li>
+		<ul class="nav-items">
+			<a href="/"><li>Home</li></a>
+			<a href="login"><li>Log In</li></a>
+			<a href="guides"><li>Guides</li></a>
+			<a href="blog"><li>Blog</li></a>
+			<a href="works"><li>Work's</li></a>
+			<a href="contact"><li>Contact</li></a>
 		</ul>
 	</nav>
 	<nav class="social-nav hidden-xs hidden-sm" id="nav-right">
@@ -91,305 +81,378 @@
 			<li style="list-style: none"><span></span></li>
 		</ul>
 	</nav>
-<div id="cases">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-10 col-lg-push-1 col-sm-12">
-				<div class="parallax-anchor cases__intro">
-					<h1 class="h2 stripe-accent stripe-accent-left"><span>Welcome to blog<mark>.</mark></span></h1>
-					<p class="intro-text big">While our Story is unfolding, we need people to help us write the next chapters. Join us in helping brands transform their bold ambitions into digital experiences and content.</p><a class="btn btn-default" href="#">See 5 openings</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div id="perks">
-	<div class="container-fluid">
-		<div class="clearfix">
+	<div id="cases">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-					<h2><span>Live your best life<mark>.</mark></span></h2>
-					<p class="text-center big center">There’s life at work and life outside of work. We want everyone to be healthy, travel often and keep exploring their potential. Inspired people build awesome shit. We build awesome shit.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container-fluid jobs-perks-slider-container">
-		<div class="clearfix">
-			<div class="row">
-				<div class="swiper-container jobs-perks-slider">
-					<div class="swiper-wrapper">
-						<div class="col-md-3 col-md-offset-1 text-center swiper-slide">
-							<img alt="Perk 1" class="img-responsive" src="img/work/lenguajes/php.png">
-							<p>Flexible working environment</p>
-						</div>
-						<div class="col-md-4 text-center swiper-slide">
-							<img alt="Perk 2" class="img-responsive" src="img/work/lenguajes/php.png">
-							<p>Fully covered lunch from falafel to <a href='#' target='_blank'>alfalfa</a></p>
-						</div>
-						<div class="col-md-3 text-center swiper-slide">
-							<img alt="Perk 3" class="img-responsive" src="img/work/lenguajes/php.png">
-							<p>You decide when you need to go on holiday</p>
-						</div>
-						<div class="col-md-3 text-center swiper-slide">
-							<img alt="Perk 4" class="img-responsive" src="img/work/lenguajes/php.png">
-							<p>Be surrounded by very talented people</p>
-						</div>
-						<div class="col-md-3 text-center swiper-slide">
-							<img alt="Perk 5" class="img-responsive" src="img/work/lenguajes/php.png">
-							<p>Yearly company trip</p>
-						</div>
-						<div class="col-md-3 text-center swiper-slide">
-							<img alt="Perk 6" class="img-responsive" src="img/work/lenguajes/php.png">
-							<p>Your own free-to-spend learning budget</p>
-						</div>
-						<div class="col-md-3 text-center swiper-slide">
-							<img alt="Perk 7" class="img-responsive" src="img/work/lenguajes/php.png">
-							<p>Awesome Story of AMS branded socks</p>
-						</div>
-						<div class="col-md-3 col-md-offset-1 text-center swiper-slide">
-							<img alt="Perk 8" class="img-responsive" src="img/work/lenguajes/php.png">
-							<p>Prestigious clients</p>
-						</div>
-						<div class="col-md-4 text-center swiper-slide">
-							<img alt="Perk 9" class="img-responsive" src="img/work/lenguajes/php.png">
-							<p>Free yoga classes with the team</p>
-						</div>
-						<div class="col-md-3 text-center swiper-slide">
-							<img alt="Perk 10" class="img-responsive" src="img/work/lenguajes/php.png">
-							<p>Monthly company event</p>
-						</div>
+				<div class="col-lg-10 col-lg-push-1 col-sm-12">
+					<div class="parallax-anchor cases__intro">
+						<h1 class="h2 stripe-accent stripe-accent-left"><span>Welcome to blog<mark>.</mark></span></h1>
+						<p class="intro-text big">While our Story is unfolding, we need people to help us write the next chapters. Join us in helping brands transform their bold ambitions into digital experiences and content.</p><a class="btn btn-default" href="#">See 5 openings</a>
 					</div>
-					<div class="swiper-pagination"></div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div id="jobs-gallery">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-				<h2 class="text-center"><span>Projects in process<mark>.</mark></span></h2>
-				<p class="text-center big center">Include everyone. A world where everyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Without that, we’d be just another agency.</p>
-			</div>
-		</div>
-	</div>
-	<div class="swiper-container jobs-gallery-slider">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide"><img src="img/home/Quantum_S20+.jpg"></div>
-			<div class="swiper-slide"><img src="img/home/Quantum_S20+.jpg"></div>
-			<div class="swiper-slide"><img src="img/home/Quantum_S20+.jpg"></div>
-			<div class="swiper-slide"><img src="img/home/Quantum_S20+.jpg"></div>
-			<div class="swiper-slide"><img src="img/home/Quantum_S20+.jpg"></div>
-			<div class="swiper-slide"><img src="img/home/Quantum_S20+.jpg"></div>
-		</div>
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 jobs-gallery-slider">
-				<a class="btn btn-instagram btn-default" href="https://twitter.com/CarlosBurelo9" rel="noopener" >@CarlosBurelo</a>
-				<div class="default-slider-button swiper-button-prev swiper-button-black"></div>
-				<div class="default-slider-button swiper-button-next swiper-button-black"></div>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-	<div class="container-fluid vacancies">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-				<h2 class="text-center"><small>Job Openings</small><br>
-				<span>Join us you must<mark>.</mark></span></h2>
-				<p class="text-center big center">Talented team players who get shit done</p>
-			</div>
-			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-				<h3><small>Production</small></h3>
-				<a class="job-card card clearfix" href="#23">
-				<div class="col-sm-5">
-					<mark>Front-end Developer</mark>
-				</div>
-				<div class="col-sm-4">
-					40 hours, Amsterdam
-				</div>
-				<div class="col-sm-3">
-					Fulltime
-				</div></a><a class="job-card card clearfix" href="#24">
-				<div class="col-sm-5">
-					<mark>Back-end Developer</mark>
-				</div>
-				<div class="col-sm-4">
-					40 hours, Amsterdam
-				</div>
-				<div class="col-sm-3">
-					Fulltime
-				</div></a><a class="job-card card clearfix" href="#25">
-				<div class="col-sm-5">
-					<mark>Full Stack Developer</mark>
-				</div>
-				<div class="col-sm-4">
-					40 hours, Amsterdam
-				</div>
-				<div class="col-sm-3">
-					Fulltime
-				</div></a><a class="job-card card clearfix" href="#21">
-				<div class="col-sm-5">
-					<mark>UX / UI Designer</mark>
-				</div>
-				<div class="col-sm-4">
-					40 hours, Amsterdam
-				</div>
-				<div class="col-sm-3">
-					Fulltime
-				</div></a>
-				<h3><small>Sales</small></h3><a class="job-card card clearfix" href="#36">
-				<div class="col-sm-5">
-					<mark>Sales manager</mark>
-				</div>
-				<div class="col-sm-4">
-					40 hours, Amsterdam
-				</div>
-				<div class="col-sm-3">
-					Fulltime
-				</div></a>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div id="cases">
-	<div class="container-fluid">
-		<div class="landing-content parallax-anchor">
-			<h3 class="h2 stripe-accent stripe-accent-left"><small>Cases</small><br>
-			<span>With our clients, for our clients<mark>.</mark></span></h3>
-			<p class="intro-text big">Get inspired by the stories we've helped writing.</p>
-		</div>
-		<div class="row">
-			<div class="col-sm-12">
-				<a class="card--case" href="#">
-				<div class="case__image__container">
-					<div class="case__image" style="background-image:url(img/roms/Quantum_S20+/Banner.jpg)"></div>
-				</div>
-				<div class="case__content">
-					<div>
-						<h4 class="case__company">Intersport + Nike</h4>
-						<h3 class="case__name">Fit for sport<mark>.</mark></h3>
-						<h6 class="case__tags">Webapp <mark>&bull;</mark> Development</h6>
+	<div id="perks">
+		<div class="container-fluid">
+			<div class="clearfix">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+						<h2><span>Live your best life<mark>.</mark></span></h2>
+						<p class="text-center big center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt suscipit veniam quod accusamus repellat dicta expedita ut minima eum, nihil autem possimus nisi, beatae delectus ipsum, corporis laborum deserunt perferendis placeat? Deleniti eum </p>
 					</div>
-					<p class="big view-more-btn">View case<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-					<path d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg></p>
-				</div></a><a class="card--case card--case--left" href="#">
-				<div class="case__image__container">
-					<div class="case__image" style="background-image:url(img/roms/Quantum_S20+/Banner.jpg)"></div>
 				</div>
-				<div class="case__content">
-					<div>
-						<h4 class="case__company">Marqt</h4>
-						<h3 class="case__name">Authentic Experiences<mark>.</mark></h3>
-						<h6 class="case__tags">Film <mark>&bull;</mark> Campaign</h6>
+			</div>
+		</div>
+		<div class="container-fluid jobs-perks-slider-container">
+			<div class="clearfix">
+				<div class="row">
+					<div class="swiper-container jobs-perks-slider">
+						<div class="swiper-wrapper">
+							<div class="col-md-3 col-md-offset-1 text-center swiper-slide">
+								<img alt="Perk 1" class="img-responsive" src="img/work/lenguajes/php.png">
+								<p>Flexible working environment</p>
+							</div>
+							<div class="col-md-4 text-center swiper-slide">
+								<img alt="Perk 2" class="img-responsive" src="img/work/lenguajes/php.png">
+								<p>Fully covered lunch from falafel to <a href='#' target='_blank'>alfalfa</a></p>
+							</div>
+							<div class="col-md-3 text-center swiper-slide">
+								<img alt="Perk 3" class="img-responsive" src="img/work/lenguajes/php.png">
+								<p>You decide when you need to go on holiday</p>
+							</div>
+							<div class="col-md-3 text-center swiper-slide">
+								<img alt="Perk 4" class="img-responsive" src="img/work/lenguajes/php.png">
+								<p>Be surrounded by very talented people</p>
+							</div>
+							<div class="col-md-3 text-center swiper-slide">
+								<img alt="Perk 5" class="img-responsive" src="img/work/lenguajes/php.png">
+								<p>Yearly company trip</p>
+							</div>
+							<div class="col-md-3 text-center swiper-slide">
+								<img alt="Perk 6" class="img-responsive" src="img/work/lenguajes/php.png">
+								<p>Your own free-to-spend learning budget</p>
+							</div>
+							<div class="col-md-3 text-center swiper-slide">
+								<img alt="Perk 7" class="img-responsive" src="img/work/lenguajes/php.png">
+								<p>Awesome Story of AMS branded socks</p>
+							</div>
+							<div class="col-md-3 col-md-offset-1 text-center swiper-slide">
+								<img alt="Perk 8" class="img-responsive" src="img/work/lenguajes/php.png">
+								<p>Prestigious clients</p>
+							</div>
+							<div class="col-md-4 text-center swiper-slide">
+								<img alt="Perk 9" class="img-responsive" src="img/work/lenguajes/php.png">
+								<p>Free yoga classes with the team</p>
+							</div>
+							<div class="col-md-3 text-center swiper-slide">
+								<img alt="Perk 10" class="img-responsive" src="img/work/lenguajes/php.png">
+								<p>Monthly company event</p>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
 					</div>
-					<p class="big view-more-btn">View case<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-					<path d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg></p>
-				</div></a>
+				</div>
 			</div>
 		</div>
-		<div class="text-center">
-			<a class="btn btn-default" data-tname="Home - See our work - Cases" href="/works">See more work</a>
-		</div>
-	</div>
-</div>
-<div class="container-fluid contact-card-container">
-	<div class="card contact-card clearfix">
-		<div class="shadow-line"></div>
-		<div class="row">
-			<div class="col-lg-9">
-				<h2>Hi, i'm <br class='visible-xs'><mark>Carlos</mark></h2>
-				<p class="intro-text">If you have any questions, send us a message or visit our support group, we will try to answer your questions. <mark>:D</mark> </p>
-				<p class="big contact-link">
-					<a class="first-link" href="https://t.me/CarlosBurelo">
-						<span class="icon-container">
-							<i class="fab fa-telegram-plane"></i>
-						</span>
-						<span class="link-text">@CarlosBurelo</span>
-					</a>
-					<br class="visible-xs">
-				<a class="contact-link" href="mailto:carlosfernandoburelo@gmail.com">
-					<span class="icon-container">
-					<i class="fas fa-envelope"></i>
-					</span>
-					<span class="link-text">carlosfernandoburelo</span></a></p>
-			</div>
-			<div class="col-lg-3 text-center">
-				<a class="contact-person" href="https://twitter.com/CarlosBurelo9" rel="noopener" >
-				<img alt="Ritchie" height="150" src="https://carlos-burelo.github.io/Boreal/img/usuarios/carlos.webp" width="150">
-				<h4>Carlos Burelo<br>
-				<mark>Developer Front-End</mark></h4></a>
-			</div>
-		</div>
-	</div>
-</div>
-	<!-- disclamer--section -->
-<div id="disclaimer">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-7">
-        <div class="clearfix">
-          <div class="disclaimer-col">
-            <a class="logo" href="/"><img height="85" src="fav/web-icon.png"></a>
-          </div>
-          <div class="disclaimer-col center-col">
-            <p>Carlos Burelo</p>
-            <p><a href="mailto:carlosfernandoburelo@gmail.com">Gmail</a></p>
-            <p><a href="https://t.me/QSupportA30">Support Group</a><br></p>
-          </div>
-          <div class="disclaimer-col">
-            <p><a href="terms-and-conditions.pdf">Terms &amp; Conditions</a><br>
-            <a href="privacy-policy.pdf">Privacy Policy</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-5">
-        <label class="h4" for="mce-EMAIL">Newsletter</label>
-        <form action="" id="mc-form-newsletter" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
-          <div aria-hidden="true" style="position: absolute; left: -5000px;">
-            <input class="js-validate-robot" name="b_35cf2612bb33321a60e61d239_37c990920c" tabindex="-1" type="text" value="">
-          </div>
-          <div class="input-group">
-            <input class="mce-EMAIL form-control" id="mce-EMAIL" type="email" name="EMAIL" placeholder="Your email here..." value="">
-            <span class="input-group-btn">
-              <button class="btn btn-small btn-primary" type="submit">
-              <span>Subscribe</span>
-              </button>
-            </span>
-            </div>
-        </form>
-      </div>
-      <div class="social-nav">
-        <ul class="nav-items hidden-lg">
-          <li>
-            <a href="https://twitter.com/CarlosBurelo9"><img alt="Twitter" height="30" src="img/social/twitter.png" width="30"></a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/carlos.burelo.773"><img alt="Facebook" height="30" src="img/social/facebook.png" width="30"></a>
-          </li>
-          <li>
-            <a href="https://github.com/carlos-burelo"><img alt="Github" height="30" src="img/social/github.png" width="30"></a>
-          </li>
-          <li>
-            <a href="https://t.me/CarlosBurelo"><img alt="Telegram" height="30" src="img/social/telegram.png" width="30"></a>
-          </li>
-          <li>
-            <a href="https://www.paypal.me/CarlosBurelo31"><img alt="PayPal" height="30" src="img/social/paypal.png" width="30"></a>
-          </li>
-        </ul>
-      </div>
     </div>
-  </div>
-</div>
-	<script src="js/main.js"></script>
-	<!-- <script src="/js/scripts.bundled.min.js?v=3.5.3">
-	</script> -->
 
+	<div id="jobs-gallery">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+					<h2 class="text-center"><span>Projects in process<mark>.</mark></span></h2>
+					<p class="text-center big center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio numquam vel nam earum quas repudiandae mollitia, omnis doloribus repellendus voluptatem tenetur, dolor a hic alias est.</p>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-container jobs-gallery-slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/home/Quantum_S20+.jpg"></div>
+				<div class="swiper-slide"><img src="img/home/Quantum_S20+.jpg"></div>
+				<div class="swiper-slide"><img src="img/home/Quantum_S20+.jpg"></div>
+				<div class="swiper-slide"><img src="img/home/Quantum_S20+.jpg"></div>
+				<div class="swiper-slide"><img src="img/home/Quantum_S20+.jpg"></div>
+				<div class="swiper-slide"><img src="img/home/Quantum_S20+.jpg"></div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 jobs-gallery-slider">
+					<a class="btn btn-instagram btn-default" href="https://twitter.com/CarlosBurelo9" rel="noopener" >@CarlosBurelo</a>
+					<div class="default-slider-button swiper-button-prev swiper-button-black"></div>
+					<div class="default-slider-button swiper-button-next swiper-button-black"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="jobs">
+		<div class="container-fluid vacancies">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+					<h2 class="text-center"><small>Job Openings</small><br>
+					<span>Join us you must<mark>.</mark></span></h2>
+					<p class="text-center big center">Talented team players who get shit done</p>
+				</div>
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+					<h3><small>Production</small></h3><a class="job-card card clearfix" href="https://storyofams.bamboohr.com/jobs/view.php?id=23" rel="noopener noreferrer" target="_blank">
+					<div class="col-sm-5">
+						<mark>Front-end Developer</mark>
+					</div>
+					<div class="col-sm-4">
+						40 hours, Amsterdam
+					</div>
+					<div class="col-sm-3">
+						Fulltime
+					</div></a><a class="job-card card clearfix" href="https://storyofams.bamboohr.com/jobs/view.php?id=24" rel="noopener noreferrer" target="_blank">
+					<div class="col-sm-5">
+						<mark>Back-end Developer</mark>
+					</div>
+					<div class="col-sm-4">
+						40 hours, Amsterdam
+					</div>
+					<div class="col-sm-3">
+						Fulltime
+					</div></a><a class="job-card card clearfix" href="https://storyofams.bamboohr.com/jobs/view.php?id=25" rel="noopener noreferrer" target="_blank">
+					<div class="col-sm-5">
+						<mark>Full Stack Developer</mark>
+					</div>
+					<div class="col-sm-4">
+						40 hours, Amsterdam
+					</div>
+					<div class="col-sm-3">
+						Fulltime
+					</div></a><a class="job-card card clearfix" href="https://storyofams.bamboohr.com/jobs/view.php?id=21" rel="noopener noreferrer" target="_blank">
+					<div class="col-sm-5">
+						<mark>UX / UI Designer</mark>
+					</div>
+					<div class="col-sm-4">
+						40 hours, Amsterdam
+					</div>
+					<div class="col-sm-3">
+						Fulltime
+					</div></a>
+					<h3><small>Sales</small></h3><a class="job-card card clearfix" href="https://storyofams.bamboohr.com/jobs/view.php?id=36" rel="noopener noreferrer" target="_blank">
+					<div class="col-sm-5">
+						<mark>Sales manager</mark>
+					</div>
+					<div class="col-sm-4">
+						40 hours, Amsterdam
+					</div>
+					<div class="col-sm-3">
+						Fulltime
+					</div></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sales__section" id="steps">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="clearfix">
+					<div class="col-lg-4 col-md-10 col-sm-12 col-xs-12">
+						<h3 class="h2 stripe-accent stripe-accent-left"><small>THE PROCESS</small><br>
+						<span>How we hire new heroes<mark>.</mark></span></h3>
+						<div class="clearfix hidden-lg"></div>
+						<p class="intro-text section__title">In any great story, there is a hero who is bold enough to take the first step.<br>
+						In this one, that needs to be you.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row slider-steps__container">
+				<div class="swiper-container slider--steps">
+					<div class="swiper-button-prev swiper-button-black swiper-button-disabled" data-tname="Sales - Slider previous Button - Our process" id="steps--prev"></div>
+					<div class="swiper-button-next swiper-button-black" data-tname="Sales - Slider next Button - Our process" id="steps--next"></div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="card-icon">
+									<div class="card-icon__image-container" style="background-image:url(img/home/Quantum_S20+.jpg)"></div>
+								</div>
+								<div class="card-body">
+									<h4>Review</h4>
+									<p>Hit ‘apply online’ and fill in the form</p>
+								</div>
+							</div><span><span>1</span></span>
+						</div>
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="card-icon">
+									<div class="card-icon__image-container" style="background-image:url(img/home/Quantum_S20+.jpg)"></div>
+								</div>
+								<div class="card-body">
+									<h4>Interview</h4>
+									<p>Be invited to our office for a coffee</p>
+								</div>
+							</div><span><span>2</span></span>
+						</div>
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="card-icon">
+									<div class="card-icon__image-container" style="background-image:url(img/home/Quantum_S20+.jpg)"></div>
+								</div>
+								<div class="card-body">
+									<h4>Testcase</h4>
+									<p>Ace the test case we send you<br></p>
+								</div>
+							</div><span><span>3</span></span>
+						</div>
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="card-icon">
+									<div class="card-icon__image-container" style="background-image:url(img/home/Quantum_S20+.jpg)"></div>
+								</div>
+								<div class="card-body">
+									<h4>2nd interview</h4>
+									<p>A meet-and-greet with someone in the role you’re applying for</p>
+								</div>
+							</div><span><span>4</span></span>
+						</div>
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="card-icon">
+									<div class="card-icon__image-container" style="background-image:url(img/home/Quantum_S20+.jpg)"></div>
+								</div>
+								<div class="card-body">
+									<h4>Offer</h4>
+									<p>We make you an offer you can’t refuse</p>
+								</div>
+							</div><span><span>5</span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="cases">
+		<div class="container-fluid">
+			<div class="landing-content parallax-anchor">
+				<h3 class="h2 stripe-accent stripe-accent-left"><small>Cases</small><br>
+				<span>With our clients, for our clients<mark>.</mark></span></h3>
+				<p class="intro-text big">Get inspired by the stories we've helped writing.</p>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<a class="card--case" href="#">
+					<div class="case__image__container">
+						<div class="case__image" style="background-image:url(img/roms/Quantum_S20+/Banner.jpg)"></div>
+					</div>
+					<div class="case__content">
+						<div>
+							<h4 class="case__company">Intersport + Nike</h4>
+							<h3 class="case__name">Fit for sport<mark>.</mark></h3>
+							<h6 class="case__tags">Webapp <mark>&bull;</mark> Development</h6>
+						</div>
+						<p class="big view-more-btn">View case<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+						<path d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg></p>
+					</div></a><a class="card--case card--case--left" href="#">
+					<div class="case__image__container">
+						<div class="case__image" style="background-image:url(img/roms/Quantum_S20+/Banner.jpg)"></div>
+					</div>
+					<div class="case__content">
+						<div>
+							<h4 class="case__company">Marqt</h4>
+							<h3 class="case__name">Authentic Experiences<mark>.</mark></h3>
+							<h6 class="case__tags">Film <mark>&bull;</mark> Campaign</h6>
+						</div>
+						<p class="big view-more-btn">View case<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+						<path d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg></p>
+					</div></a>
+				</div>
+			</div>
+			<div class="text-center">
+				<a class="btn btn-default" data-tname="Home - See our work - Cases" href="/works">See more work</a>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid contact-card-container">
+		<div class="card contact-card clearfix">
+			<div class="shadow-line"></div>
+			<div class="row">
+				<div class="col-lg-9">
+					<h2>Hi, i'm <br class='visible-xs'><mark>Carlos</mark></h2>
+					<p class="intro-text">If you have any questions, send us a message or visit our support group, we will try to answer your questions. <mark>:D</mark> </p>
+					<p class="big contact-link">
+						<a class="first-link" href="https://t.me/CarlosBurelo">
+							<span class="icon-container">
+								<i class="fab fa-telegram-plane"></i>
+							</span>
+							<span class="link-text">@CarlosBurelo</span>
+						</a>
+						<br class="visible-xs">
+					<a class="contact-link" href="mailto:carlosfernandoburelo@gmail.com">
+						<span class="icon-container">
+						<i class="fas fa-envelope"></i>
+						</span>
+						<span class="link-text">carlosfernandoburelo</span></a></p>
+				</div>
+				<div class="col-lg-3 text-center">
+					<a class="contact-person" href="https://twitter.com/CarlosBurelo9" rel="noopener" >
+					<img alt="Ritchie" height="150" src="https://carlos-burelo.github.io/Boreal/img/usuarios/carlos.webp" width="150">
+					<h4>Carlos Burelo<br>
+					<mark>Developer Front-End</mark></h4></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- disclamer--section -->
+	<div id="disclaimer">
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col-lg-7">
+			<div class="clearfix">
+			<div class="disclaimer-col">
+				<a class="logo" href="/"><img height="85" src="fav/web-icon.png"></a>
+			</div>
+			<div class="disclaimer-col center-col">
+				<p>Carlos Burelo</p>
+				<p><a href="mailto:carlosfernandoburelo@gmail.com">Gmail</a></p>
+				<p><a href="https://t.me/QSupportA30">Support Group</a><br></p>
+			</div>
+			<div class="disclaimer-col">
+				<p><a href="terms-and-conditions.pdf">Terms &amp; Conditions</a><br>
+				<a href="privacy-policy.pdf">Privacy Policy</a></p>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-5">
+			<label class="h4" for="mce-EMAIL">Newsletter</label>
+			<form action="" id="mc-form-newsletter" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+			<div aria-hidden="true" style="position: absolute; left: -5000px;">
+				<input class="js-validate-robot" name="b_35cf2612bb33321a60e61d239_37c990920c" tabindex="-1" type="text" value="">
+			</div>
+			<div class="input-group">
+				<input class="mce-EMAIL form-control" id="mce-EMAIL" type="email" name="EMAIL" placeholder="Your email here..." value="">
+				<span class="input-group-btn">
+				<button class="btn btn-small btn-primary" type="submit">
+				<span>Subscribe</span>
+				</button>
+				</span>
+				</div>
+			</form>
+		</div>
+		<div class="social-nav">
+			<ul class="nav-items hidden-lg">
+			<li>
+				<a href="https://twitter.com/CarlosBurelo9"><img alt="Twitter" height="30" src="img/social/twitter.png" width="30"></a>
+			</li>
+			<li>
+				<a href="https://www.facebook.com/carlos.burelo.773"><img alt="Facebook" height="30" src="img/social/facebook.png" width="30"></a>
+			</li>
+			<li>
+				<a href="https://github.com/carlos-burelo"><img alt="Github" height="30" src="img/social/github.png" width="30"></a>
+			</li>
+			<li>
+				<a href="https://t.me/CarlosBurelo"><img alt="Telegram" height="30" src="img/social/telegram.png" width="30"></a>
+			</li>
+			<li>
+				<a href="https://www.paypal.me/CarlosBurelo31"><img alt="PayPal" height="30" src="img/social/paypal.png" width="30"></a>
+			</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	</div>
+	<script src="js/main.js"></script>
 </body>
 </html>

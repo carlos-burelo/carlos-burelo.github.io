@@ -1,14 +1,4 @@
-/*!
- * VERSION: 1.19.0
- * DATE: 2016-07-16
- * UPDATES AND DOCS AT: http://greensock.com
- *
- * @license Copyright (c) 2008-2016, GreenSock. All rights reserved.
- * This work is subject to the terms at http://greensock.com/standard-license or for
- * Club GreenSock members, the software agreement that was issued with your membership.
- * 
- * @author: Jack Doyle, jack@greensock.com
- */
+
 ! function( a, b ) {
 	"use strict";
 	var c = {},
@@ -4433,7 +4423,7 @@ var ScrollReveal = function() {
 							.transform( "translate3d(0,0,0) scaleX(" + w + ") scaleY(" + y + ")" )
 							.transition( e.params.speed )
 					}
-					"custom" === s.type && s.renderCustom ? ( i( s.renderCustom( e, r + 1, n ) ), e.emit( "paginationRender", e, i[ 0 ] ) ) : e.emit( "paginationUpdate", e, i[ 0 ] ), i[ e.params.watchOverflow && e.isLocked ? "addClass" : "removeClass" ]( s.lockClass )
+					"custom" === s.type && s.renderCustom ? ( i.html( s.renderCustom( e, r + 1, n ) ), e.emit( "paginationRender", e, i[ 0 ] ) ) : e.emit( "paginationUpdate", e, i[ 0 ] ), i[ e.params.watchOverflow && e.isLocked ? "addClass" : "removeClass" ]( s.lockClass )
 				}
 			},
 			render: function() {
@@ -4445,9 +4435,9 @@ var ScrollReveal = function() {
 						s = "";
 					if ( "bullets" === t.type ) {
 						for ( var r = e.params.loop ? Math.ceil( ( a - 2 * e.loopedSlides ) / e.params.slidesPerGroup ) : e.snapGrid.length, n = 0; n < r; n += 1 ) t.renderBullet ? s += t.renderBullet.call( e, n, t.bulletClass ) : s += "<" + t.bulletElement + ' class="' + t.bulletClass + '"></' + t.bulletElement + ">";
-						i( s ), e.pagination.bullets = i.find( "." + t.bulletClass )
+						i.html( s ), e.pagination.bullets = i.find( "." + t.bulletClass )
 					}
-					"fraction" === t.type && ( s = t.renderFraction ? t.renderFraction.call( e, t.currentClass, t.totalClass ) : '<span class="' + t.currentClass + '"></span> / <span class="' + t.totalClass + '"></span>', i( s ) ), "progressbar" === t.type && ( s = t.renderProgressbar ? t.renderProgressbar.call( e, t.progressbarFillClass ) : '<span class="' + t.progressbarFillClass + '"></span>', i( s ) ), "custom" !== t.type && e.emit( "paginationRender", e.pagination.$el[ 0 ] )
+					"fraction" === t.type && ( s = t.renderFraction ? t.renderFraction.call( e, t.currentClass, t.totalClass ) : '<span class="' + t.currentClass + '"></span> / <span class="' + t.totalClass + '"></span>', i.html( s ) ), "progressbar" === t.type && ( s = t.renderProgressbar ? t.renderProgressbar.call( e, t.progressbarFillClass ) : '<span class="' + t.progressbarFillClass + '"></span>', i.html( s ) ), "custom" !== t.type && e.emit( "paginationRender", e.pagination.$el[ 0 ] )
 				}
 			},
 			init: function() {
@@ -4952,7 +4942,7 @@ var ScrollReveal = function() {
 			},
 			notify: function( e ) {
 				var t = this.a11y.liveRegion;
-				0 !== t.length && ( t( "" ), t( e ) )
+				0 !== t.length && ( t.html( "" ), t.html( e ) )
 			},
 			updateNavigation: function() {
 				var e = this;
@@ -5983,7 +5973,7 @@ function( e, t ) {
 	}
 
 	function s( e ) {
-		return /^(https?:)?\/\/((youtube|www)\.)?vimeo\.com(?=$|\/)/.test( e )
+		return /^(https?:)?\/\/((player|www)\.)?vimeo\.com(?=$|\/)/.test( e )
 	}
 
 	function l() {
@@ -5992,10 +5982,10 @@ function( e, t ) {
 			r = t.url,
 			o = n || r;
 		if ( !o ) throw new Error( "An id or url must be passed, either in an options object or as a data-vimeo-id or data-vimeo-url attribute." );
-		if ( e = o, !isNaN( parseFloat( e ) ) && isFinite( e ) && Math.floor( e ) == e ) return "".concat( o );
+		if ( e = o, !isNaN( parseFloat( e ) ) && isFinite( e ) && Math.floor( e ) == e ) return "https://vimeo.com/".concat( o );
 		if ( s( o ) ) return o.replace( "http:", "https:" );
 		if ( n ) throw new TypeError( "“".concat( n, "” is not a valid video id." ) );
-		throw new TypeError( "“".concat( o, "” F" ) )
+		throw new TypeError( "“".concat( o, "” is not a vimeo.com url." ) )
 	}
 	var t = void 0 !== Array.prototype.indexOf,
 		n = "undefined" != typeof window && void 0 !== window.postMessage;
@@ -6246,7 +6236,7 @@ function( e, t ) {
 	}
 
 	function y( e, t ) {
-		var n = e;
+		var n = e.html;
 		if ( !t ) throw new TypeError( "An element must be provided" );
 		if ( null !== t.getAttribute( "data-vimeo-initialized" ) ) return t.querySelector( "iframe" );
 		var r = document.createElement( "div" );
@@ -6258,7 +6248,7 @@ function( e, t ) {
 			u = 2 < arguments.length ? arguments[ 2 ] : void 0;
 		return new Promise( ( function( t, n ) {
 			if ( !s( i ) ) throw new TypeError( "“".concat( i, "” is not a vimeo.com url." ) );
-			var e = "null=".concat( encodeURIComponent( i ) );
+			var e = "https://vimeo.com/api/oembed.json?url=".concat( encodeURIComponent( i ) );
 			for ( var r in a ) a.hasOwnProperty( r ) && ( e += "&".concat( r, "=" )
 				.concat( encodeURIComponent( a[ r ] ) ) );
 			var o = "XDomainRequest" in window ? new XDomainRequest : new XMLHttpRequest;
@@ -7039,7 +7029,7 @@ var sliderServices = new Swiper( ".slider--services", {
 		slidesPerView: "auto"
 	} ),
 	options = {
-		url: "null",
+		url: "https://player.vimeo.com/video/382774120",
 		autoplay: !0,
 		autopause: !1,
 		muted: !0,
@@ -7051,7 +7041,7 @@ var sliderServices = new Swiper( ".slider--services", {
 		controls: !1
 	},
 	optionsLightbox = {
-		url: "null",
+		url: "https://player.vimeo.com/video/382774120",
 		muted: !0,
 		autopause: !1,
 		color: "19ecc0",

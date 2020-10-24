@@ -9,6 +9,32 @@
  *
  * Released on: July 31, 2018
  */
+
+/*---- ---- ---- ---- ---- ---- ---- ---- ----*/
+/*---- BLACK THHEME ----*/
+/*---- ---- ---- ---- ---- ---- ---- ---- ----*/
+/* @media (prefers-color-scheme: dark) {
+	.landing-content {
+		color: #ffffff;
+		background-color: #000000
+	}
+	h1, h2, h3, h4, h5, h6{
+		color: #ffffff;
+	}
+	.intro-text .big{
+		color: #ffffff;
+	}
+	.h1, .h2, .h3, .h4, .h5{
+		color: #ffffff;
+	}
+	.titulos {
+		color: #ffffff;
+	}
+} */
+
+
+
+
 *{
 	font-family: 'Rubik', sans-serif;
 }
@@ -186,10 +212,7 @@
 .swiper-pagination {
 	position: absolute;
 	text-align: center;
-	-webkit-transition: .3s opacity;
-	-o-transition: .3s opacity;
 	transition: .3s opacity;
-	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 	z-index: 10
 }
@@ -206,34 +229,22 @@
 	font-size: 0
 }
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
-	-webkit-transform: scale(.33);
-	-ms-transform: scale(.33);
 	transform: scale(.33);
 	position: relative
 }
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
 	transform: scale(1)
 }
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
 	transform: scale(1)
 }
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
-	-webkit-transform: scale(.66);
-	-ms-transform: scale(.66);
 	transform: scale(.66)
 }
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
-	-webkit-transform: scale(.33);
-	-ms-transform: scale(.33);
 	transform: scale(.33)
 }
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
-	-webkit-transform: scale(.66);
-	-ms-transform: scale(.66);
 	transform: scale(.66)
 }
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
@@ -7557,13 +7568,23 @@ a.card:hover {
 }
 @media (max-width: 1199px) {
 	.nav-items li a, .nav-items li p {
-		font-size: 18px
+		font-size: 18px;
+		display: block;
+		font-size: 26px;
+		margin: 5px;
+		padding: 18px;
 	}
 }
 @media (max-width: 767px) {
-	.nav-items li a, .nav-items li p {
+	.nav-items a li, .nav-items li p {
 		display: block;
-		font-size: 26px
+		display: block;
+		font-size: 26px;
+		margin: 5px;
+		padding: 18px;
+	}
+	.nav-items a{
+		text-decoration: none;
 	}
 }
 .nav-items li a svg, .nav-items li p svg {
@@ -7773,13 +7794,17 @@ a.card:hover {
 	box-shadow: 5px 0 40px rgba(0, 0, 0, 0.13)
 }
 #nav-mobile-overlay .nav-items {
-	padding-bottom: 100px
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
 }
 #nav-mobile-overlay .nav-logo {
 	margin-top: 50px
 }
 #nav-mobile-overlay.is-open {
-	left: 0
+	left: 30%;
 }
 #nav-mobile-overlay .nav-lang .is-active {
 	color: #000
@@ -7809,12 +7834,12 @@ a.card:hover {
 @media (max-width: 991px) {
 	#landing .container-fluid {
 		padding-top: 150px;
-		padding-bottom: 40px
+		padding-bottom: 0px
 	}
 }
 @media (max-width: 767px) {
 	#landing .container-fluid {
-		padding-top: 80px
+		padding-top: 120px
 	}
 }
 #landing .intro-text {
