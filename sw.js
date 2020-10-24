@@ -2,7 +2,7 @@
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'tmo',
   urlsToCache = [
-    'https://carlos-burelo.github.io/basic_tmo/index.html'
+    'https://carlos-burelo.github.io/basic_tmo/index'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos

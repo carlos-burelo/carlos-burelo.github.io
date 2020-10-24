@@ -5,7 +5,7 @@
       <div class="col-lg-7">
         <div class="clearfix">
           <div class="disclaimer-col">
-            <a class="logo" href="index.html"><img height="85" src="fav/web-icon.png"></a>
+            <a class="logo" href="/"><img height="85" src="fav/web-icon.png"></a>
           </div>
           <div class="disclaimer-col center-col">
             <p>Carlos Burelo</p>

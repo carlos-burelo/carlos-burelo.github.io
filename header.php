@@ -25,7 +25,7 @@
 <body>
 	<nav class="hidden-xs is-landing" id="nav-top">
 		<div class="container-fluid">
-			<a class="nav-logo" href="index.html">
+			<a class="nav-logo" href="/">
 			<img alt="Carlos Burelo" height="70" src="fav/web-icon.png"></a>
 			<ul class="nav-items">
 				<li>
@@ -35,16 +35,16 @@
 					<a href="login.php">Log In</a>
 				</li>
 				<li>
-					<a href="guides.html">Guides</a>
+					<a href="guides">Guides</a>
 				</li>
 				<li>
 					<a href="blog.php">Blog</a>
 				</li>
 				<li>
-					<a href="works.html">Work's</a>
+					<a href="works">Work's</a>
 				</li>
 				<li>
-					<a href="index.html#disclaimer">Contact</a>
+					<a href="index#disclaimer">Contact</a>
 				</li>
 			</ul>
 		</div>

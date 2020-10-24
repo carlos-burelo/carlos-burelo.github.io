@@ -2,7 +2,7 @@
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'update_rom',
   urlsToCache = [
-    'https://carlos-burelo.github.io/Website/services/update/main.html'
+    'https://carlos-burelo.github.io/Website/services/update/main'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos

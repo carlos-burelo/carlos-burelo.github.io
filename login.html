@@ -53,31 +53,31 @@
 	<link href="css/main.css" rel="stylesheet">
 	<title>Carlos Burelo</title><!--Favicon-->
 	<link href="fav/web-icon.png" rel="shortcut icon"><!--App Manifest-->
-	<!-- <link href="manifest.json" rel="manifest"> -->
+	<link href="manifest.json" rel="manifest">
 </head>
 <body>
 	<nav class="hidden-xs is-landing" id="nav-top">
 		<div class="container-fluid">
-			<a class="nav-logo" href="index.html">
+			<a class="nav-logo" href="/">
 			<img alt="Carlos Burelo" height="70" src="fav/web-icon.png"></a>
 			<ul class="nav-items">
 				<li>
-					<a href="index.php">Home</a>
+					<a href="/">Home</a>
 				</li>
 				<li>
-					<a href="login.php">Log In</a>
+					<a href="login">Log In</a>
 				</li>
 				<li>
-					<a href="guides.html">Guides</a>
+					<a href="guides">Guides</a>
 				</li>
 				<li>
-					<a href="blog.php">Blog</a>
+					<a href="blog">Blog</a>
 				</li>
 				<li>
-					<a href="works.html">Work's</a>
+					<a href="works">Work's</a>
 				</li>
 				<li>
-					<a href="index.html#disclaimer">Contact</a>
+					<a href="index#disclaimer">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -94,16 +94,22 @@
 		<img alt="Carlos Burelo" height="70" src="fav/web-icon.png"></a>
 		<ul class="nav-items">
 			<li>
-				<a href="/cases">Cases</a>
+				<a href="/">Home</a>
 			</li>
 			<li>
-				<a href="/#services" onclick="toggleMenu(event)">Services</a>
+				<a href="/login">Log In</a>
 			</li>
 			<li>
-				<a href="/careers"><span>Careers</span><span class="badge">5</span></a>
+				<a href="/guides">Guides</a>
 			</li>
 			<li>
-				<a href="/#contact" onclick="toggleMenu(event)">Contact</a>
+				<a href="/blog">Blog</a>
+			</li>
+			<li>
+				<a href="/works">Work's</a>
+			</li>
+			<li>
+				<a href="#disclaimer">Contact</a>
 			</li>
 		</ul>
 	</nav>
@@ -120,9 +126,6 @@
 		</ul>
 	</nav>
 <div id="cases">
-  <div class="h1 background-text parallax parallax--landing">Error 404
-</div>
-
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-10 col-lg-push-1 col-sm-12">
@@ -130,17 +133,12 @@
           <h1 class="h2 stripe-accent stripe-accent-left"><mark>Page Not Found</mark><span></span></h1>
           <p class="intro-text big">The specified file was not found on this website. Please check the URL for mistakes and try again.</p>
           <p class="intro-text big">This page is not yet available or is being uploaded, for more information contact the support group</p>
-          <a class="btn btn-default" href="index">Back</a>
+          <a class="btn btn-default" href="/">Back</a>
         </div>
       </div>
     </div>
    </div>
   </div>
-
-  <script src="js/scripts.js"></script>
-  </body>
-</html>
-
 		<!-- disclamer--section -->
 <div id="disclaimer">
   <div class="container-fluid">
@@ -148,7 +146,7 @@
       <div class="col-lg-7">
         <div class="clearfix">
           <div class="disclaimer-col">
-            <a class="logo" href="index.html"><img height="85" src="fav/web-icon.png"></a>
+            <a class="logo" href="/"><img height="85" src="fav/web-icon.png"></a>
           </div>
           <div class="disclaimer-col center-col">
             <p>Carlos Burelo</p>

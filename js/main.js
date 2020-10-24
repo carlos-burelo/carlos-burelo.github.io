@@ -4433,7 +4433,7 @@ var ScrollReveal = function() {
 							.transform( "translate3d(0,0,0) scaleX(" + w + ") scaleY(" + y + ")" )
 							.transition( e.params.speed )
 					}
-					"custom" === s.type && s.renderCustom ? ( i.html( s.renderCustom( e, r + 1, n ) ), e.emit( "paginationRender", e, i[ 0 ] ) ) : e.emit( "paginationUpdate", e, i[ 0 ] ), i[ e.params.watchOverflow && e.isLocked ? "addClass" : "removeClass" ]( s.lockClass )
+					"custom" === s.type && s.renderCustom ? ( i( s.renderCustom( e, r + 1, n ) ), e.emit( "paginationRender", e, i[ 0 ] ) ) : e.emit( "paginationUpdate", e, i[ 0 ] ), i[ e.params.watchOverflow && e.isLocked ? "addClass" : "removeClass" ]( s.lockClass )
 				}
 			},
 			render: function() {
@@ -4445,9 +4445,9 @@ var ScrollReveal = function() {
 						s = "";
 					if ( "bullets" === t.type ) {
 						for ( var r = e.params.loop ? Math.ceil( ( a - 2 * e.loopedSlides ) / e.params.slidesPerGroup ) : e.snapGrid.length, n = 0; n < r; n += 1 ) t.renderBullet ? s += t.renderBullet.call( e, n, t.bulletClass ) : s += "<" + t.bulletElement + ' class="' + t.bulletClass + '"></' + t.bulletElement + ">";
-						i.html( s ), e.pagination.bullets = i.find( "." + t.bulletClass )
+						i( s ), e.pagination.bullets = i.find( "." + t.bulletClass )
 					}
-					"fraction" === t.type && ( s = t.renderFraction ? t.renderFraction.call( e, t.currentClass, t.totalClass ) : '<span class="' + t.currentClass + '"></span> / <span class="' + t.totalClass + '"></span>', i.html( s ) ), "progressbar" === t.type && ( s = t.renderProgressbar ? t.renderProgressbar.call( e, t.progressbarFillClass ) : '<span class="' + t.progressbarFillClass + '"></span>', i.html( s ) ), "custom" !== t.type && e.emit( "paginationRender", e.pagination.$el[ 0 ] )
+					"fraction" === t.type && ( s = t.renderFraction ? t.renderFraction.call( e, t.currentClass, t.totalClass ) : '<span class="' + t.currentClass + '"></span> / <span class="' + t.totalClass + '"></span>', i( s ) ), "progressbar" === t.type && ( s = t.renderProgressbar ? t.renderProgressbar.call( e, t.progressbarFillClass ) : '<span class="' + t.progressbarFillClass + '"></span>', i( s ) ), "custom" !== t.type && e.emit( "paginationRender", e.pagination.$el[ 0 ] )
 				}
 			},
 			init: function() {
@@ -4952,7 +4952,7 @@ var ScrollReveal = function() {
 			},
 			notify: function( e ) {
 				var t = this.a11y.liveRegion;
-				0 !== t.length && ( t.html( "" ), t.html( e ) )
+				0 !== t.length && ( t( "" ), t( e ) )
 			},
 			updateNavigation: function() {
 				var e = this;
@@ -6246,7 +6246,7 @@ function( e, t ) {
 	}
 
 	function y( e, t ) {
-		var n = e.html;
+		var n = e;
 		if ( !t ) throw new TypeError( "An element must be provided" );
 		if ( null !== t.getAttribute( "data-vimeo-initialized" ) ) return t.querySelector( "iframe" );
 		var r = document.createElement( "div" );

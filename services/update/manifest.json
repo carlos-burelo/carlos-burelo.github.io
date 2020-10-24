@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "https://carlos-burelo.github.io/Website/services/update/index.html",
+    "start_url": "https://carlos-burelo.github.io/Website/services/update/index",
     "theme_color": "#000000",
     "background_color": "#000000",
     "display": "standalone"

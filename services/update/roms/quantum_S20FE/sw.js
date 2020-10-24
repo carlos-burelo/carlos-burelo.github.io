@@ -2,7 +2,7 @@
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'update_rom',
   urlsToCache = [
-    'https://carlos-burelo.github.io/Website/services/update/roms/quantum_S20FE/index.html'
+    'https://carlos-burelo.github.io/Website/services/update/roms/quantum_S20FE/index'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos

@@ -8,11 +8,11 @@ function enviarFormulario(){
 
     var mensajesError =[];
     if(user.value === 'CarlosBurelo' || pass.value === 'carlosburelo31' ){
-        window.location=("https://carlos-burelo.web.app/roms/Quantum_A80_V2.html");
+        window.location=("https://carlos-burelo.web.app/roms/Quantum_A80_V2");
     }
     var mensajesError =[];
     if (user.value === 'Gollo99' || pass.value === 'Marcoreus11' ){
-        window.location=("https://carlos-burelo.web.app/roms/Quantum_A80_V2.html");
+        window.location=("https://carlos-burelo.web.app/roms/Quantum_A80_V2");
     }
     else{
         mensajesError.push('Datos inconrrectos');
