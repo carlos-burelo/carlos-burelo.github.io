@@ -1,0 +1,90 @@
+{
+  "configVersion": 1,
+  "timestamp": 1608869453032,
+  "index": "https://carlos-burelo.github.io/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://carlos-burelo.github.io/4.36846c388369532b4dca.js",
+        "https://carlos-burelo.github.io/5.a9a95d9ab45de4ab4c93.js",
+        "https://carlos-burelo.github.io/favicon.ico",
+        "https://carlos-burelo.github.io/index.html",
+        "https://carlos-burelo.github.io/main.21a05ca617f6c4499178.js",
+        "https://carlos-burelo.github.io/manifest.webmanifest",
+        "https://carlos-burelo.github.io/polyfills.9bf4dad123bd95dda86e.js",
+        "https://carlos-burelo.github.io/runtime.6addd325c1a14b4927f2.js",
+        "https://carlos-burelo.github.io/styles.8b8e58debe68986993ac.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://carlos-burelo.github.io/assets/icons/icon-144x144.png",
+        "https://carlos-burelo.github.io/assets/img/anna.jpg",
+        "https://carlos-burelo.github.io/assets/img/carlos.webp",
+        "https://carlos-burelo.github.io/assets/img/home/QS20FE.jpg",
+        "https://carlos-burelo.github.io/assets/img/social/facebook.png",
+        "https://carlos-burelo.github.io/assets/img/social/github.png",
+        "https://carlos-burelo.github.io/assets/img/social/paypal.png",
+        "https://carlos-burelo.github.io/assets/img/social/telegram.png",
+        "https://carlos-burelo.github.io/assets/img/social/twitter.png",
+        "https://carlos-burelo.github.io/assets/img/web-icon.png",
+        "https://carlos-burelo.github.io/assets/js/main.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://carlos-burelo.github.io/4.36846c388369532b4dca.js": "222663b1b8f642e253b268d9ad7d9d0394fc7121",
+    "https://carlos-burelo.github.io/5.a9a95d9ab45de4ab4c93.js": "513108b085f3d10abb94d3f63daecb5178ee56c8",
+    "https://carlos-burelo.github.io/assets/icons/icon-144x144.png": "e66ba4627174795b7ac581dc7a44a4ebd7ac0348",
+    "https://carlos-burelo.github.io/assets/img/anna.jpg": "6c1180e7693d3968c5886699f2a1ae5f5c5d9b34",
+    "https://carlos-burelo.github.io/assets/img/carlos.webp": "4f6484e3ee0ba5a9940c4a8a8bbbb067053933e4",
+    "https://carlos-burelo.github.io/assets/img/home/QS20FE.jpg": "e42598ca1f1e4d77ea172fbbe126bff38cefbff7",
+    "https://carlos-burelo.github.io/assets/img/social/facebook.png": "2e96034ff92302dee1d9f2a8cdbe8dfae413732a",
+    "https://carlos-burelo.github.io/assets/img/social/github.png": "be477bad742aa473f1986c8300ee23ec15f84a53",
+    "https://carlos-burelo.github.io/assets/img/social/paypal.png": "ac3e813ff4d0469c9bfc431fec8d47d33b1c9c52",
+    "https://carlos-burelo.github.io/assets/img/social/telegram.png": "608288c5207f35f9aaef0e08ad468f1234781d52",
+    "https://carlos-burelo.github.io/assets/img/social/twitter.png": "aeb958af375f40861d368aac35217daefff958c6",
+    "https://carlos-burelo.github.io/assets/img/web-icon.png": "e66ba4627174795b7ac581dc7a44a4ebd7ac0348",
+    "https://carlos-burelo.github.io/assets/js/main.js": "ea1c17e14b06ad19140cb2218e915c42620ee3a3",
+    "https://carlos-burelo.github.io/favicon.ico": "051e9234fd5eb8f58b80227c2b849865cea01113",
+    "https://carlos-burelo.github.io/index.html": "e171b3c9b3af923f4f6857efce4cd910085f38de",
+    "https://carlos-burelo.github.io/main.21a05ca617f6c4499178.js": "4d4fd89fa07ffaf11ac74ef98f592a604b54f9e7",
+    "https://carlos-burelo.github.io/manifest.webmanifest": "70adaeec6880ac8b34dcf6f0540f0f367854e882",
+    "https://carlos-burelo.github.io/polyfills.9bf4dad123bd95dda86e.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "https://carlos-burelo.github.io/runtime.6addd325c1a14b4927f2.js": "7919402e5cd4cd06cf27fd6fb8844a012322d848",
+    "https://carlos-burelo.github.io/styles.8b8e58debe68986993ac.css": "2b8541c261450f48e9fe6161d90fc8fa16435a2b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
