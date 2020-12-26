@@ -6552,7 +6552,7 @@ var validateMailchimp = function(e) {
 	mcForm && mcForm.addEventListener("submit", validateMailchimp)
 }();
 var consoleCss = "font-size: 13px; padding: 85px 0 20px; background: url(https://carlos-burelo.github.io/assets/img/web-icon.png) no-repeat; background-size: auto 50px; background-position: 0 15px";
-console.log("Carlos Burelo, consoleCss);
+console.log("Carlos Burelo", consoleCss);
 var navIsOpen = !1,
 	navMobile = document.getElementById("nav-mobile-overlay"),
 	navHamburger = document.getElementById("nav-hamburger"),
