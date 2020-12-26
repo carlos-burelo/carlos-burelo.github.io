@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1609021196291,
+  "timestamp": 1609025501353,
   "index": "https://carlos-burelo.github.io/index.html",
   "assetGroups": [
     {
@@ -15,10 +15,10 @@
         "https://carlos-burelo.github.io/5.a9a95d9ab45de4ab4c93.js",
         "https://carlos-burelo.github.io/favicon.ico",
         "https://carlos-burelo.github.io/index.html",
-        "https://carlos-burelo.github.io/main.4a2ea1d5d565021752f7.js",
+        "https://carlos-burelo.github.io/main.0ddfcc3d76acae2c750d.js",
         "https://carlos-burelo.github.io/polyfills.9bf4dad123bd95dda86e.js",
         "https://carlos-burelo.github.io/runtime.af550c5fb3080a74ed6b.js",
-        "https://carlos-burelo.github.io/styles.0a90e37973ffb5ed908d.css"
+        "https://carlos-burelo.github.io/styles.75f6598068d6dc827757.css"
       ],
       "patterns": []
     },
@@ -61,11 +61,11 @@
     "https://carlos-burelo.github.io/assets/img/web-icon.png": "e66ba4627174795b7ac581dc7a44a4ebd7ac0348",
     "https://carlos-burelo.github.io/assets/js/main.js": "ea1c17e14b06ad19140cb2218e915c42620ee3a3",
     "https://carlos-burelo.github.io/favicon.ico": "051e9234fd5eb8f58b80227c2b849865cea01113",
-    "https://carlos-burelo.github.io/index.html": "fea2a42ffd1c0d59c404917624a780cc8f15a295",
-    "https://carlos-burelo.github.io/main.4a2ea1d5d565021752f7.js": "fbd5ae503a57427f6f740534c63bd4267167f3e5",
+    "https://carlos-burelo.github.io/index.html": "bf1b0949e3a89bfb9ff4248af18b19af603f7aba",
+    "https://carlos-burelo.github.io/main.0ddfcc3d76acae2c750d.js": "15844ac7b3ecdc9a4b57188b64bc523d5f0d6500",
     "https://carlos-burelo.github.io/polyfills.9bf4dad123bd95dda86e.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://carlos-burelo.github.io/runtime.af550c5fb3080a74ed6b.js": "e8fb48f3c8b6d23acc89cb1e0442545936f03f48",
-    "https://carlos-burelo.github.io/styles.0a90e37973ffb5ed908d.css": "ee1fc6af096d50e054506848a8cee149524cdc09"
+    "https://carlos-burelo.github.io/styles.75f6598068d6dc827757.css": "065b086024d0a3a3c1ebbd7623e77eb2aecf67ff"
   },
   "navigationUrls": [
     {
