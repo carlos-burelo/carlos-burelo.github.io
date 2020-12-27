@@ -1,0 +1,24 @@
+{
+    "roms": [
+        {
+            "title": "Quantum S20+",
+            "img": "https://monoschinos2.com/image/portada/290/165/Ei2S7OeWsAA-GSv.jpg",
+            "id": "quantum-s20+",
+            "link": "https://carlos-burelo.github.io/blog/iopAfTrkouyT5bvEzX1n",
+            "type": "ROM",
+            "device": "Galaxy A30",
+            "date": "18-April-2020",
+            "author": "Carlos Burelo"
+        },
+        {
+            "title": "Quantum S20 FE",
+            "img": "https://monoschinos2.com/image/portada/290/165/3281.jpg",
+            "id": "quantum-s20fe",
+            "link": "https://carlos-burelo.github.io/blog/PQT8VewwuOKiU29PskBu",
+            "type": "ROM",
+            "device": "Galaxy A30",
+            "date": "23-September-2020",
+            "author": "Carlos Burelo"
+        }
+    ]
+}
