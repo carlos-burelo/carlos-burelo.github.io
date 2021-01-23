@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1611012052614,
+  "timestamp": 1611384205379,
   "index": "https://carlos-burelo.github.io/index.html",
   "assetGroups": [
     {
@@ -11,14 +11,15 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://carlos-burelo.github.io/4.3f5ac933926b66adf605.js",
-        "https://carlos-burelo.github.io/5.a9a95d9ab45de4ab4c93.js",
+        "https://carlos-burelo.github.io/4.a77f96088e4e0f8e2397.js",
+        "https://carlos-burelo.github.io/5.3c9d879366b97c1ddd9c.js",
         "https://carlos-burelo.github.io/favicon.ico",
         "https://carlos-burelo.github.io/index.html",
-        "https://carlos-burelo.github.io/main.3165a2c88feaf9f05e0d.js",
-        "https://carlos-burelo.github.io/polyfills.9bf4dad123bd95dda86e.js",
-        "https://carlos-burelo.github.io/runtime.97810dc570d1490d7743.js",
-        "https://carlos-burelo.github.io/styles.a5b3acfbd33f839684b5.css"
+        "https://carlos-burelo.github.io/main.c85059729d92ef6d73b6.js",
+        "https://carlos-burelo.github.io/manifest.webmanifest",
+        "https://carlos-burelo.github.io/polyfills.70ffb02a82cc06d3b0cb.js",
+        "https://carlos-burelo.github.io/runtime.8612e836404668938691.js",
+        "https://carlos-burelo.github.io/styles.b4edcccb35dd7464bd59.css"
       ],
       "patterns": []
     },
@@ -30,6 +31,17 @@
         "ignoreVary": true
       },
       "urls": [
+        "https://carlos-burelo.github.io/assets/favicon.png",
+        "https://carlos-burelo.github.io/assets/icons/icon-128x128.png",
+        "https://carlos-burelo.github.io/assets/icons/icon-144x144.png",
+        "https://carlos-burelo.github.io/assets/icons/icon-152x152.png",
+        "https://carlos-burelo.github.io/assets/icons/icon-192x192.png",
+        "https://carlos-burelo.github.io/assets/icons/icon-384x384.png",
+        "https://carlos-burelo.github.io/assets/icons/icon-512x512.png",
+        "https://carlos-burelo.github.io/assets/icons/icon-72x72.png",
+        "https://carlos-burelo.github.io/assets/icons/icon-96x96.png",
+        "https://carlos-burelo.github.io/assets/img/blog/Stadia/Banner.png",
+        "https://carlos-burelo.github.io/assets/img/blog/Stadia/a1.png",
         "https://carlos-burelo.github.io/assets/img/md.webp",
         "https://carlos-burelo.github.io/assets/img/projects/quantum_s20+/1.jpg",
         "https://carlos-burelo.github.io/assets/img/projects/quantum_s20+/10.jpg",
@@ -51,16 +63,26 @@
         "https://carlos-burelo.github.io/assets/img/projects/quantum_s20+/9.jpg",
         "https://carlos-burelo.github.io/assets/img/s.webp",
         "https://carlos-burelo.github.io/assets/img/ws.webp",
-        "https://carlos-burelo.github.io/assets/js/main.js",
-        "https://carlos-burelo.github.io/assets/public/roms.json"
+        "https://carlos-burelo.github.io/assets/js/main.js"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://carlos-burelo.github.io/4.3f5ac933926b66adf605.js": "af0a589a34ed731e4d717269701b4d656a25455d",
-    "https://carlos-burelo.github.io/5.a9a95d9ab45de4ab4c93.js": "513108b085f3d10abb94d3f63daecb5178ee56c8",
+    "https://carlos-burelo.github.io/4.a77f96088e4e0f8e2397.js": "b4655f61bdda367d592d3ec30cbbcbaf8bccec6e",
+    "https://carlos-burelo.github.io/5.3c9d879366b97c1ddd9c.js": "3aac25aa5feb80c1d510d41f470e6141bf1ad39d",
+    "https://carlos-burelo.github.io/assets/favicon.png": "e66ba4627174795b7ac581dc7a44a4ebd7ac0348",
+    "https://carlos-burelo.github.io/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://carlos-burelo.github.io/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://carlos-burelo.github.io/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://carlos-burelo.github.io/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://carlos-burelo.github.io/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://carlos-burelo.github.io/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://carlos-burelo.github.io/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://carlos-burelo.github.io/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://carlos-burelo.github.io/assets/img/blog/Stadia/Banner.png": "79b49b01794f6843703ff57a139b083908bc767c",
+    "https://carlos-burelo.github.io/assets/img/blog/Stadia/a1.png": "233bed3a556089f4c0d6424f36e2c13a73edf5e0",
     "https://carlos-burelo.github.io/assets/img/md.webp": "2fcc366de659ff76b9adff43c4988bc48f1cb724",
     "https://carlos-burelo.github.io/assets/img/projects/quantum_s20+/1.jpg": "37f4d09edef0272acd1fa302246f23fd933bc683",
     "https://carlos-burelo.github.io/assets/img/projects/quantum_s20+/10.jpg": "0591621b076fb8a7542fab3d18c1dc812807e85c",
@@ -83,13 +105,13 @@
     "https://carlos-burelo.github.io/assets/img/s.webp": "404448a9ea72f13dece9218bd007f7ef8b38d381",
     "https://carlos-burelo.github.io/assets/img/ws.webp": "5298ba07e580e040bd95d3cd724fcc3f03d8066b",
     "https://carlos-burelo.github.io/assets/js/main.js": "ea1c17e14b06ad19140cb2218e915c42620ee3a3",
-    "https://carlos-burelo.github.io/assets/public/roms.json": "14a8fef387d41e07788219d0025a9bcd9fc26849",
     "https://carlos-burelo.github.io/favicon.ico": "051e9234fd5eb8f58b80227c2b849865cea01113",
-    "https://carlos-burelo.github.io/index.html": "f0f4c31648ddf0f4d58c2e6a3db10c8562bbf6b2",
-    "https://carlos-burelo.github.io/main.3165a2c88feaf9f05e0d.js": "4f487a2f25769cd39a884decce711f1a6f2b6577",
-    "https://carlos-burelo.github.io/polyfills.9bf4dad123bd95dda86e.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
-    "https://carlos-burelo.github.io/runtime.97810dc570d1490d7743.js": "83223e69eb1406781e2fc19457f60dbb64a52a94",
-    "https://carlos-burelo.github.io/styles.a5b3acfbd33f839684b5.css": "b58de9d8a346cb10d80c4b77fab88ff2d47db6ae"
+    "https://carlos-burelo.github.io/index.html": "b2cde26b79592f08e3465b494f99df729534f19b",
+    "https://carlos-burelo.github.io/main.c85059729d92ef6d73b6.js": "acb62e56195fb6fce8cac9078cfcdc7274e07205",
+    "https://carlos-burelo.github.io/manifest.webmanifest": "5b59be5fd55f92a9a663cd493e4af673cfde6cbd",
+    "https://carlos-burelo.github.io/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "https://carlos-burelo.github.io/runtime.8612e836404668938691.js": "46888a5b1e18eef7d12e04852e8a24d44742e987",
+    "https://carlos-burelo.github.io/styles.b4edcccb35dd7464bd59.css": "a59b46ef4678cce0c687bf359c528848467db4bd"
   },
   "navigationUrls": [
     {
@@ -108,5 +130,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }
