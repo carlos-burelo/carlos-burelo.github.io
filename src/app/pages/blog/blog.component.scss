@@ -92,6 +92,7 @@ main {
             justify-content: space-between;
             flex-wrap: wrap;
             article {
+                cursor: pointer;
                 transition: $smooth;
                 width: calc(33.33% - 10px);
                 margin-bottom: 15px;
@@ -165,9 +166,6 @@ main {
                         opacity: 1;
                     }
                 }
-            }
-            article:hover {
-                img {}
             }
         }
     }
