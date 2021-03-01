@@ -1,0 +1,31 @@
+{
+    "mainPost": {
+        "title": "Stadia",
+        "img": "./assets/img/blog/main.webp",
+        "date": "31-12-2020",
+        "description": " Hybrid application to display the content of the Monoschinos.com page, written in Typescript, html & Sass, using Ionic and angular as framework.",
+        "tools": ["bxl-angular", "bxl-firebase", "bxl-sass", "bxl-html5"]
+    },
+    "posts": [{
+            "id": "monoschinos-api",
+            "title": "monoschinos-api",
+            "img": "./assets/img/blog/monoschinos-api/banner.jpg",
+            "date": "31-12-2020",
+            "tools": ["bxl-nodejs", "bxl-javascript", "bxs-cloud-rain"]
+        },
+        {
+            "id": "scarlett",
+            "title": "Scarlett Kitchen",
+            "img": "./assets/img/blog/scarlett/banner.jpg",
+            "date": "31-12-2020",
+            "tools": ["bxs-terminal", "bxl-windows"]
+        },
+        {
+            "id": "cortana-bot",
+            "title": "Cortana Bot",
+            "img": "./assets/img/blog/cortana-bot/banner.jpg",
+            "date": "31-12-2020",
+            "tools": ["bxl-python", "bxl-telegram", "bxs-bot"]
+        }
+    ]
+}
