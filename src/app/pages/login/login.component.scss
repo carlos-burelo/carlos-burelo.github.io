@@ -1,0 +1,62 @@
+@import '../../../styles.scss';
+#login {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    .login-container {
+        width: 340px;
+        background: $secondary;
+        position: relative;
+        border-radius: 10px;
+        padding: 30px 30px;
+        .avatar {
+            width: 100px;
+            height: 100px;
+            transition: ease all 0.5s;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+            left: calc(50% - 50px);
+        }
+        .name__admin {
+            font-size: 25px;
+            padding-top: 30px;
+            width: 100%;
+            color: $white;
+            text-align: center;
+        }
+        form {
+            .btn-login {
+                margin: 30px 0px;
+                color: $white;
+                outline: none;
+                width: 100%;
+                padding: 10px 0px;
+                background-color: $primary;
+                border-radius: $radius;
+                border: none;
+                transition: ease all 0.3s;
+                &:hover {
+                    background: $green;
+                }
+            }
+            .input-login {
+                outline: none;
+                border: none;
+                color: $white;
+                background-color: $gray2;
+                margin-top: 15px;
+                padding: 10px;
+                border-radius: 10px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #login {
+        padding-top: 130px;
+    }
+}

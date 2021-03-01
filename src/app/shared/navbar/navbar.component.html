@@ -1,0 +1,49 @@
+<nav class="navbar">
+    <div class="nav-logo">
+        <img src="./assets/img/favicon.png" alt="Logo">
+    </div>
+    <div class="nav-list">
+        <li class="nav-item">
+            <a class="nav-link home" [routerLink]="['/']">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/projects']" routerLinkActive="active">projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/about']" routerLinkActive="active">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/login']" routerLinkActive="active">Login</a>
+        </li>
+    </div>
+    <div class="nav-hamburger -push" (click)="toggleMenu()">
+        <i class='bx bx-menu -push'></i>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="overlay-list">
+            <li class="nav-item" [routerLink]="['/']">
+                <i class='bx bx-home'></i>
+                <a>home</a>
+            </li>
+            <li class="nav-item" [routerLink]="['/projects']">
+                <i class='bx bx-rss'></i>
+                <a>projects</a>
+            </li>
+            <li class="nav-item" [routerLink]="['/about']">
+                <i class='bx bx-info-circle'></i>
+                <a>about</a>
+            </li>
+            <li class="nav-item" [routerLink]="['/contact']">
+                <i class='bx bx-mail-send'></i>
+                <a>contact</a>
+            </li>
+            <li class="nav-item" [routerLink]="['/login']">
+                <i class='bx bx-key'></i>
+                <a>login</a>
+            </li>
+        </div>
+    </div>
+</nav>
