@@ -1,0 +1,246 @@
+    @import '../../../styles.scss';
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .column {
+        flex-direction: column;
+    }
+    
+    .title-section {
+        text-transform: uppercase;
+        color: $primary;
+        margin: 20px 0;
+    }
+    
+    .rounder {
+        position: relative;
+        display: block;
+        width: 16px;
+        height: 16px;
+        background-color: $primary;
+        border-radius: 50%;
+        margin-top: .25rem;
+    }
+    
+    .line {
+        display: block;
+        width: 2px;
+        height: 100%;
+        background-color: $gray2;
+        transform: translate(7px, 0);
+    }
+    
+    #about {
+        display: flex;
+        .about-left {
+            padding: 20px;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .profile {
+                display: flex;
+                align-items: center;
+                .avatar {
+                    border-radius: 50%;
+                    width: 100px;
+                    height: 100px;
+                    margin-right: 20px;
+                }
+                .user-name {
+                    font-size: 30px;
+                }
+                .user-position {
+                    font-size: 14px;
+                }
+            }
+            .info-list {
+                margin-top: 20px;
+                .info-item {
+                    display: flex;
+                    margin-bottom: 10px;
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
+            .social-container {
+                display: flex;
+                a {
+                    color: $white;
+                    background: $secondary;
+                    width: 35px;
+                    height: 35px;
+                    text-align: center;
+                    display: inline-block;
+                    border-radius: 100px;
+                    line-height: 35px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: .4s;
+                    margin-right: 10px;
+                    i {
+                        font-size: 15px;
+                        line-height: normal;
+                    }
+                    &:hover {
+                        i {
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+            .description-container {
+                p {
+                    font-size: 14px;
+                }
+            }
+            .education__content {
+                display: flex;
+                margin-bottom: 10px;
+                .education__time {
+                    padding-right: 10px;
+                }
+                .education__studies {
+                    margin-right: 10px;
+                }
+            }
+            .skills-container {
+                .skills-content {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 10px;
+                    .skill-header {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .skill-bar {
+                        width: 100%;
+                        height: 5px;
+                        background-color: $gray2;
+                        border-radius: $radius;
+                        .skill-line {
+                            height: 100%;
+                            border-radius: $radius;
+                        }
+                    }
+                }
+            }
+        }
+        .about-right {
+            width: 70%;
+            padding: 20px;
+            .experience-container {
+                .experience__content {
+                    display: flex;
+                    margin-bottom: 10px;
+                    .experience__time {
+                        padding-right: 10px;
+                    }
+                    .experience__studies {
+                        margin-right: 10px;
+                        font-weight: 600;
+                    }
+                    .experience__description {
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .tools-container {
+                display: flex;
+                .tool-content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 40px;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        object-fit: contain;
+                    }
+                }
+            }
+            .langs-container {
+                display: flex;
+                .lang-item {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 40px;
+                    i {
+                        margin-right: 10px;
+                    }
+                    .lang-name {
+                        color: $gray;
+                    }
+                }
+            }
+            .interests_container {
+                display: flex;
+                .interests__content {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    margin-right: 40px;
+                    i {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+    
+    @media screen and (max-width: 767px) {
+        .title-section {
+            margin: 30px 0;
+        }
+        #about {
+            flex-direction: column;
+            padding-top: 80px;
+            .about-left, .about-right {
+                width: 100%;
+                padding: 0;
+            }
+            .about-left {
+                .skills-container {
+                    .skills-content {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            .about-right {
+                .tools-container {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 10px;
+                    .tool-content {
+                        margin: 0;
+                    }
+                }
+                .langs-container {
+                    display: flex;
+                    .lang-item {
+                        display: flex;
+                        align-items: center;
+                        margin-right: 20px;
+                        .lang-name {
+                            color: $gray;
+                        }
+                    }
+                }
+                .interests_container {
+                    justify-content: space-between;
+                    .interests__content {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }

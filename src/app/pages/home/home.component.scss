@@ -1,0 +1,170 @@
+@import '../../../styles.scss';
+main {
+    width: 100%;
+    height: 100%;
+}
+
+#landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: $smooth;
+}
+
+.box {
+    transition: $smooth;
+}
+
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-banner {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.landing-banner {
+    position: relative;
+}
+
+.nebula {
+    position: absolute;
+    object-fit: contain;
+}
+
+.landing {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: rgb(0 0 0 / 4%);
+    backdrop-filter: blur( 17.0px);
+    object-fit: cover;
+}
+
+.landing-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.hello {
+    color: $white;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.name {
+    color: $white;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.work {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    color: $primary;
+}
+
+.description {
+    color: $gray;
+}
+
+.social {
+    display: flex;
+    margin-top: 25px;
+}
+
+.social li a {
+    color: $white;
+    background: $secondary;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100px;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+
+.social li {
+    &:hover {
+        a i {
+            color: $primary;
+            transition: .25s;
+            transform: scale(1.4);
+        }
+    }
+}
+
+.social li {
+    margin-right: 5px;
+}
+
+@media screen and(max-width:767px) {
+    #landing {
+        flex-direction: column-reverse;
+    }
+}
+
+// ====================================== GLOBAL CLASS
+.section-title {
+    font-size: 40px;
+    color: $white;
+}
+
+// ====================================== SERVICES
+#services {
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+}
+
+.services-container {
+    margin-top: 40px;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    transition: $smooth;
+    align-content: center;
+}
+
+.service-card {
+    margin-bottom: 20px;
+    .service-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        i, h4 {
+            font-size: 20px;
+            color: $primary;
+        }
+        i {
+            margin-right: 10px;
+        }
+        h4 {
+            font-weight: 600;
+        }
+    }
+}
+
+@media screen and(max-width:768px) {
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+    .social li {
+        margin-right: 15px;
+    }
+}

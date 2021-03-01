@@ -1,0 +1,40 @@
+<div class="container">
+    <app-navbar></app-navbar>
+    <main>
+        <div id="last-post">
+            <h4 class="title-section"> <mark>#</mark> Recent posts's</h4>
+            <article class="main-post">
+                <div class="img-post">
+                    <img [src]="mainPost?.img" alt="">
+                </div>
+                <div class="content-post">
+                    <h2>{{mainPost?.title}}</h2>
+                    <h4>{{mainPost?.date}}</h4>
+                    <h6>{{mainPost?.description}}</h6>
+                    <div class="tools">
+                        <i [ngClass]="'bx ' + i " *ngFor="let i of mainPost?.tools"></i>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div id="content-posts">
+            <h4 class="title-section"> <mark>#</mark> All posts's</h4>
+            <div class="all-posts">
+                <article class="post" *ngFor="let p of posts">
+                    <div class="details">
+                        <div class="icon-detail">
+                            <i [ngClass]="'bx ' + i " *ngFor="let i of p.tools"></i>
+                        </div>
+                    </div>
+                    <div class="post-info">
+                        <h3 class="post-title">{{p.title}}</h3>
+                        <h5 class="post-date">{{p.date}}</h5>
+                        <div class="post-tags"></div>
+                    </div>
+                    <img [src]="p.img" [alt]="p.title">
+                </article>
+            </div>
+        </div>
+    </main>
+</div>
+<app-footer></app-footer>
