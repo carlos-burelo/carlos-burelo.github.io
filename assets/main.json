@@ -3,7 +3,7 @@
         "first_name": "Carlos",
         "full_name": "Carlos Burelo",
         "avatar": "./assets/img/carlos.webp",
-        "position": "Front-End Developer / UI Designer",
+        "position": "Front-End Developer",
         "description": "I am a Front-End developer, ROMS developer by hobby and interface designer by interest and I will use this blog to share a little of my work. :D",
         "country": "Tabasco, México",
         "role": "Admin",
@@ -49,7 +49,7 @@
                 "color": "#f0db4f"
             },
             {
-                "name": "Saas",
+                "name": "Sass",
                 "percent": 60,
                 "color": "#cc6699"
             },
@@ -126,7 +126,7 @@
         },
         {
             "title": "UI/UX Design",
-            "icon": "bx bx-code-alt",
+            "icon": "bx bxs-palette",
             "description": "Attract more visitors with a friendly interface and great design and improve the image of your brand or website"
         },
         {
