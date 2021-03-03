@@ -1,5 +1,6 @@
 {
     "mainPost": {
+        "id": "stadia",
         "title": "Stadia",
         "img": "./assets/img/blog/main.webp",
         "date": "31-12-2020",

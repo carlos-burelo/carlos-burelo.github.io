@@ -1,0 +1,31 @@
+[{
+        "title": "Web development",
+        "icon": "bx bx-code-alt",
+        "description": "We can build your website using the latest technologies for Front-End development making them dynamic and reactive."
+    },
+    {
+        "title": "UI/UX Design",
+        "icon": "bx bxs-palette",
+        "description": "Attract more visitors with a friendly interface and great design and improve the image of your brand or website"
+    },
+    {
+        "title": "PWA Aplications",
+        "icon": "bx bx-mobile-alt",
+        "description": "Applications under the concept of a single page, which in addition to being efficient has in almost all operating systems"
+    },
+    {
+        "title": "Web Scraping",
+        "icon": "bx bx-cloud-rain",
+        "description": "Scripts that extract the content of a specific website and mold the information into an interpretable format."
+    },
+    {
+        "title": "API Rest Implement",
+        "icon": "bx bx-code-curly",
+        "description": "Implementation of a service that connects the client with the server and manages the information for you."
+    },
+    {
+        "title": "Back-End Services",
+        "icon": "bx bx-data",
+        "description": "Administration of a database to manage the content of your web page or progressive application."
+    }
+]
